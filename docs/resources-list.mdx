@@ -10,7 +10,4 @@ import articles from "@site/src/some-resources.json";
 import columns from "@site/src/columns-list.json";
 import CodeBlock from '@theme/CodeBlock';
 
-// <CodeBlock className="language-json">{JSON.stringify(columns, null, 2)}</CodeBlock>
-// <CodeBlock className="language-json">{JSON.stringify(articles, null, 2)}</CodeBlock>
-
 <SortableTable columns={columns} data={articles} />
